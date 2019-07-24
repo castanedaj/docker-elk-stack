@@ -22,7 +22,7 @@ curl -XPOST -u elastic 'http://localhost:9200/_xpack/security/role/kibana_reader
 
 curl -XPOST -u elastic 'http://localhost:9200/_xpack/security/user/sangah' -H 'Content-Type: application/json' -d '{
   "password" : "tkddkpmisV2",
-  "full_name" : "SangAh Admin",
-  "email" : "pmis@sangah.com",
+  "full_name" : "castaneda_j Admin",
+  "email" : "",
   "roles" : [ "kibana_reader", "kibana_user", "reporting_user" ]
 }'
